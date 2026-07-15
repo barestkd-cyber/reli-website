@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Final canonical URLs only. Redirect stubs (old /testimonials/ and /locations/*) are intentionally excluded. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.relicommercialcleaning.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/about-us/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/office-cleaning-tyler-tx/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/bank-cleaning-tyler-tx/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/retail-cleaning-tyler-tx/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/healthcare-cleaning-tyler-tx/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/dealership-cleaning-tyler-tx/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/education-cleaning-tyler-tx/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/service-areas/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.relicommercialcleaning.com/privacy-policy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

@@ -1,0 +1,8 @@
+# RELI Commercial Cleaning
+# NOTE: during staging every page also carries <meta name="robots" content="noindex">.
+# Remove those meta tags at launch (single find-and-replace) to allow indexing.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.relicommercialcleaning.com/sitemap.xml

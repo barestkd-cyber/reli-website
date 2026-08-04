@@ -11,8 +11,8 @@
  * attempted.
  * ------------------------------------------------------------------------- */
 var CONFIG = {
-  SUPABASE_URL:      'https://YOUR-PROJECT-REF.supabase.co',   // <-- REPLACE at cutover
-  SUPABASE_ANON_KEY: 'YOUR-SUPABASE-ANON-KEY',                 // <-- REPLACE at cutover
+  SUPABASE_URL:      'https://whduvsgyrbhmknurgkpo.supabase.co',   // <-- REPLACE at cutover
+  SUPABASE_ANON_KEY: 'sb_publishable_oFZmZx8-EyJ68d2VtESrMg_EauSabUQ',                 // <-- REPLACE at cutover
   LEADS_TABLE:       'leads'
 };
 

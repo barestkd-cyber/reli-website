@@ -77,6 +77,9 @@ p  { margin: 0 0 1rem; }
 .nav__links a { text-decoration: none; font-weight: 500; font-size: .95rem; color: var(--charcoal); padding: 4px 0; border-bottom: 2px solid transparent; }
 .nav__links a:hover,.nav__links a[aria-current="page"] { color: var(--gold-hover); border-bottom-color: var(--gold); }
 .nav__cta { white-space: nowrap; }
+/* The .nav__links a rule outranks .btn and strips the button padding; restore it. */
+.nav__links a.nav__cta { padding: 10px 24px; border-bottom: none; color: var(--charcoal); }
+.nav__links a.nav__cta:hover { background: var(--gold-hover); color: #fff; border-bottom: none; }
 .nav__toggle { display: none; background: none; border: 0; cursor: pointer; padding: 8px; }
 .nav__toggle span { display: block; width: 26px; height: 3px; background: var(--charcoal); margin: 5px 0; border-radius: 2px; transition: .25s; }
 

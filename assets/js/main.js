@@ -33,6 +33,18 @@ var CONFIG = {
     });
   }
 
+  /* ---- Services submenu toggle (drawer accordion / dropdown) ---- */
+  var subToggles = document.querySelectorAll('.sub-toggle');
+  for (var i = 0; i < subToggles.length; i++) {
+    subToggles[i].addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var li = this.closest('.has-sub');
+      var open = li.classList.toggle('open');
+      this.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
   /* ---- Contact form -> Supabase leads insert ---- */
   var form = document.getElementById('lead-form');
   if (!form) return;

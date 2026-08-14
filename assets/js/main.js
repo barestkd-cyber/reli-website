@@ -66,6 +66,8 @@ var CONFIG = {
 
     var btn = form.querySelector('[type="submit"]');
     var payload = {
+      business:   form.business.value.trim(),
+      contact:    (form.first_name.value.trim() + ' ' + form.last_name.value.trim()).trim(),
       first_name: form.first_name.value.trim(),
       last_name:  form.last_name.value.trim(),
       email:      form.email.value.trim(),

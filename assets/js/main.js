@@ -64,6 +64,30 @@ var CONFIG = {
       return;
     }
 
+    /* Honeypot: humans never see this field; bots fill it. Pretend success
+       so the bot moves on, write nothing. */
+    if (form.website_url && form.website_url.value !== '') {
+      setStatus('Thank you for contacting RELI Commercial Cleaning. We will get back to you as soon as possible.', 'success');
+      form.reset();
+      return;
+    }
+
+    /* Validation (the form uses novalidate, so this is the only gate). */
+    if (form.business.value.trim() === '' || form.first_name.value.trim() === '') {
+      setStatus('Please fill in your business name and contact name.', 'error');
+      return;
+    }
+    var emailVal = form.email.value.trim();
+    var phoneVal = form.phone.value.trim();
+    if (emailVal === '' && phoneVal === '') {
+      setStatus('Please give us an email or a phone number so we can reach you.', 'error');
+      return;
+    }
+    if (emailVal !== '' && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(emailVal)) {
+      setStatus('That email address does not look right. Please check it.', 'error');
+      return;
+    }
+
     var btn = form.querySelector('[type="submit"]');
     var payload = {
       business:   form.business.value.trim(),

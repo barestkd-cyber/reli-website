@@ -151,19 +151,19 @@ textarea:focus-visible, select:focus-visible {
 .home-hero { background: var(--black); color: #fff; position: relative; overflow: hidden; }
 .home-hero::after { content: ""; position: absolute; right: -120px; top: -120px; width: 420px; height: 420px; background: radial-gradient(circle, rgba(217,164,65,.20), transparent 70%); }
 .home-hero__bg { position: absolute; inset: 0; overflow: hidden; }
-.home-hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 100% 62%; }
+.home-hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 100% 42%; }
 .home-hero__overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,10,10,.96) 0%, rgba(10,10,10,.86) 52%, rgba(10,10,10,.58) 100%); }
-.home-hero__inner { position: relative; z-index: 1; padding-top: 96px; padding-bottom: 72px; max-width: 860px; }
-.home-hero h1 { color: #fff; }
+.home-hero__inner { position: relative; z-index: 1; padding-top: 54px; padding-bottom: 46px; max-width: 860px; }
+.home-hero h1 { color: #fff; font-size: clamp(2.4rem, 5vw, 3.5rem); }
 .home-hero h1 .gold-text { color: var(--gold); }
 .home-hero .lead { color: #dcdcdc; max-width: 640px; }
 
 /* Hero heading: big visual line + smaller SEO line, one H1 */
 .h1-visual { display: block; }
-.h1-seo { display: block; font-family: var(--font-body); font-size: clamp(.85rem, 2vw, 1.05rem); font-weight: 600; letter-spacing: 3px; color: #e8e8e8; margin-top: 16px; text-transform: uppercase; }
+.h1-seo { display: block; font-family: var(--font-body); font-size: clamp(.85rem, 2vw, 1rem); font-weight: 600; letter-spacing: 3px; color: #e8e8e8; margin-top: 12px; text-transform: uppercase; }
 
 /* Trust row (hero) */
-.trust-row { display: flex; flex-wrap: wrap; gap: 18px 44px; list-style: none; margin: 44px 0 0; padding: 26px 0 0; border-top: 1px solid rgba(217,164,65,.35); }
+.trust-row { display: flex; flex-wrap: wrap; gap: 18px 44px; list-style: none; margin: 26px 0 0; padding: 18px 0 0; border-top: 1px solid rgba(217,164,65,.35); }
 .trust-row li { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: .82rem; letter-spacing: 1.5px; text-transform: uppercase; color: #fff; }
 .trust-row svg { width: 30px; height: 30px; flex-shrink: 0; }
 
